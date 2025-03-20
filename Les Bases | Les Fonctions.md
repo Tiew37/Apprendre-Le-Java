@@ -22,7 +22,7 @@ _Plus simplement, c'est une sorte de **raccourci** pour tout bon développeur qu
 **Comment on écrit des fonctions alors ? 🤔**
 -------------
 
--> Avant de coder une fonction, posons-nous une question: _"Quel type de valeur dois-je récupérer avec la fonction ? Un Int ? un Booléen ? un String ? Rien ?"._
+-> Avant de coder une fonction, **posons-nous une question**: _"Quel type de valeur dois-je récupérer avec la fonction ? Un Int ? un Booléen ? un String ? Rien ?"._
 
 **Contexte:** Pour notre exemple, nous voulons simplement faire une addition à l'aide de fonction, nous voulons donc récupérer une valeur de type "Int", restons simple.
 
