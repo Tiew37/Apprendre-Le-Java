@@ -1,40 +1,40 @@
-**Les Fonctions**
+**Les Fonctions en Java**
 =============
 
-_Dans ce chapitre, nous allons découvrir **qu'est-ce qu'une fonction** en Java, **comment les écrires** et **comment bien s'en servir**._
+_Dans ce chapitre, nous allons découvrir **qu'est-ce qu'une fonction** en Java, **comment les écrire** et **comment bien s'en servir**._
 
 **C'est Quoi une Fonction ? 🤔**
 -------------
 
--> Par définition, une fonction est un **bloc de code réutilisable** qui éxécute une tâche spécifique.
+-> Par définition, une fonction est un **bloc de code réutilisable** qui exécute une tâche spécifique.
 
 _Plus simplement, c'est une sorte de **raccourci** pour tout bon développeur qui se respecte._
 
 -------------
 
--> Une fonction est un terme général, mais il est possible de l'appeller différement: 
+-> Une fonction est un terme général, mais il est possible de l'appeler différement: 
 
 - **Une Méthode** : _Retourne **obligatoirement une valeur** à la fin de cette dernière_.
-- **Une Procédure** : _Éxécute **simplement du code** sans un réel retournement de valeur_.
+- **Une Procédure** : _Exécute **simplement du code** sans un réel retournement de valeur_.
 
 -------------
 
 **Comment on écrit des fonctions alors ? 🤔**
 -------------
 
--> Avant de coder une fonction, posons-nous une question: _"Quel type de valeur doit-je récupérer avec la fonction ? Un Int ? un Booléen ? un String ? Rien ?"._
+-> Avant de coder une fonction, posons-nous une question: _"Quel type de valeur dois-je récupérer avec la fonction ? Un Int ? un Booléen ? un String ? Rien ?"._
 
 **Contexte:** Pour notre exemple, nous voulons simplement faire une addition à l'aide de fonction, nous voulons donc récupérer une valeur de type "Int", restons simple.
 
 -------------
 
-Tout d'abord, définissez si votre sera public, private ou protected, pour l'exemple on définira une fonction publique. Je commence donc par écrire "public".
+Tout d'abord, définissez si votre fonction sera "public", "private" ou "protected", pour l'exemple on définira une fonction publique. Je commence donc par écrire "public".
 
 ``` java
 public
 ```
 
-Ensuite, renseignez le type de valeur que vous voulez récupérez. Ici, je choisi "int" car je veux récupérer un entier.
+Ensuite, renseignez le type de valeur que vous voulez récupérer. Ici, je choisis "int" car je veux récupérer un entier.
 
 ``` java
 public int
@@ -47,7 +47,7 @@ public int addition() {
 
 }
 ```
-_Puis je termine pas des paranthèses collées au nom de notre fonction avec des accolades pour ouvrir et fermer notre fonction, là où nous écrirons notre code tout comme le chapitre sur Les Conditions._
+_Puis je termine par des paranthèses collées au nom de notre fonction avec des accolades pour ouvrir et fermer notre fonction, là où nous écrirons notre code tout comme le chapitre sur Les Conditions._
 
 -------------
 
@@ -55,7 +55,7 @@ _Puis je termine pas des paranthèses collées au nom de notre fonction avec des
 
 -------------
 
--> Reprenons notre fonction et ajoutons donc un "return" suivi d'une valeur dîtes "int" car comme mon type de fonction est "int" il me faut donc retourner une valeur de ce type.
+-> Reprenons notre fonction et ajoutons donc un "return" suivi une valeur dite "int" car comme mon type de fonction est "int" il me faut donc retourner une valeur de ce type.
 
 ``` java
 public int addition() {
@@ -95,7 +95,7 @@ System.out.println(addition(10, 5));
 ```
 On commence d'abord par écrire le type de paramètre, puis son nom, et on peut en rajouter autant que nous voulons à condition qu'ils soient séparés par une virgule, comme ci-dessus.
 
--> Bien-sûr, si vous ajoutez un paramètre à votre fonction, lors de l'appel de cette dernière vous devez aussi les renseigner, ici, il n'est pas nécéssaire de renseigner le type de valeur mais il faut les séparer par une virgule.
+-> Bien sûr, si vous ajoutez un paramètre à votre fonction, lors de l'appel de cette dernière vous devez aussi les renseigner, ici, il n'est pas nécessaire de renseigner le type de valeurs, mais il faut les séparer par une virgule.
 
 Lors de l'affichage, cela nous affichera encore 10, car nous retournons toujours la valeur "10", nos paramètres ne servent donc à rien actuellement, réglons ça !
 
@@ -114,7 +114,7 @@ Résultat dans la console:
 
 ![Résultat de l'exécution](java_fonction_2.png)
 
--> On peut voir que ça marche bien, il m'affiche bien le résultat des deux paramètres que j'ai entré lors de l'appel de ma fonction, prenons maintenant un autre exemple avec cette fois a = 1500 et b = 6:
+-> On peut voir que ça marche bien, il m'affiche bien le résultat des deux paramètres que j'ai entré lors de l'appel de ma fonction, prenons maintenant un autre exemple, cette fois avec a = 1500 et b = 6:
 
 ``` java
 public int addition(int a, int b) {
@@ -147,7 +147,7 @@ Résultat dans la console:
 
 -------------
 
-Essayons maintenant de faire la même chose mais cette fois en retournant une valeur "String" soit une chaîne de caractère. Pour cela, nous n'utiliseront pas "int" ni "void" comme type de fonction mais bien "String":
+Essayons maintenant de faire la même chose mais cette fois en retournant une valeur "String" soit une chaîne de caractère. Pour cela, nous n'utiliserons pas "int" ni "void" comme type de fonction mais bien "String":
 
 ``` java
 public String hello() {
@@ -165,7 +165,7 @@ Maintenant essayons d'aller un peu plus loin..
 
 -------------
 
-Codons une fonction qui affiche la chaîne de caractère entrée en paramètre lors de son appel, je renseigne donc "String text" dans les paranthèses de ma fonction pour indiquer que pour appeller cette fonction, il faudra y renseigner une chaîne de caractère, qui sera ensuite affichée:
+Codons une fonction qui affiche la chaîne de caractère entrée en paramètre lors de son appel, je renseigne donc "String text" dans les paranthèses de ma fonction pour indiquer que pour appeler cette fonction, il faudra y renseigner une chaîne de caractère, qui sera ensuite affichée:
 
 ``` java
 public String text(String text) {
@@ -180,7 +180,7 @@ Résultat dans la console:
 
 -------------
 
-Nous pouvons également faire des fonctions retournant des valeures booléennes.
+Nous pouvons également faire des fonctions retournant des valeurs booléennes.
 Exemple: Je veux créer une fonction qui me retourne "Vrai" si je suis majeur, si je ne le suis pas, elle me retourne "Faux".
 
 ``` java
@@ -212,7 +212,7 @@ public boolean isAdult(int age) {
 }
 
 public boolean isAdult(int age) {
-    return age >= 18;        // Il n'est pas nécéssaire de faire de condition, une fonction booléenne n'a que deux valeurs: vrai ou faux. Ici on retourne la VALEUR de "age >= 18", si elle est vraie alors notre fonction                                // le sera tout autant, sinon notre fonction sera fausse.
+    return age >= 18;        // Il n'est pas nécéssaire de faire de condition, une fonction booléenne n'a que deux valeurs : vrai ou faux. Ici on retourne la VALEUR de "age >= 18", si elle est vraie alors notre fonction                                // le sera tout autant, sinon notre fonction sera fausse.
 }
 ```
 
@@ -225,7 +225,7 @@ Comment faire ?
 -> Utilisons "String" comme retournement de valeur car nous voulons une chaîne de caractère, j'écris donc ma fonction:
 
 ``` java
-public String animalSound(String animal) {        // Il faudra rentré en chaîne de caractère le nom d'un animal.
+public String animalSound(String animal) {        // Il faudra rentrer en chaîne de caractère le nom d'un animal.
     String sound = "";                            // Je crée une variable de type "String" qui ne contient rien encore.
 
     switch (animal) {                             // Je crée un switch pour assigner la variable "sound" à quelque chose en fonction de ce que renseigne l'utilisateur à l'appel de la fonction.
@@ -250,7 +250,7 @@ Résultat dans la console:
 
 -------------
 
-Voilà, vous avez appris à créer une fonction qu'elle soit simple ou complexe, entraînez-vous jusqu'à ce que vous maîtrisiez ces dernière pour faire des fonctions encore plus fascinantes les unes que les autres !
+Voilà, vous avez appris à créer une fonction qu'elle soit simple ou complexe, entraînez-vous jusqu'à ce que vous maîtrisiez ces dernières pour faire des fonctions encore plus fascinantes les unes que les autres !
 
 
 
