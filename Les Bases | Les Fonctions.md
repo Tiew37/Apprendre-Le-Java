@@ -197,6 +197,7 @@ Résultat dans la console:
 ![Résultat de l'exécution](images/java_fonction_7.png)
 
 -> J'entre en paramètre de ma fonction booléenne une valeur entière qui **correspondrait à l'âge de la personne** (car un âge c'est rarement à virgule).
+
 -> Ensuite, je vérifie à l'aide d'une condition si **l'âge que j'ai rentré lors de l'appel de la fonction est supérieur OU égal à 18**, si oui, ma fonction sera vraie, sinon elle sera fausse.
 
 Il est possible **d'optimiser nos conditions**, même dans des fonctions pour rendre notre code plus lisible, notre fonction ci-dessus est **exactement la même** que les trois du dessous:
