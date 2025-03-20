@@ -129,6 +129,24 @@ Résultat dans la console:
 
 -> Voilà, le résultat de notre opération est bien 1500 + 6 = 1506.
 
+-------------
+Nous venons de faire une fonction retournant une opération, maintenant, essayons de ne retourner aucune valeur et de simplement afficher "Hello World !" avec une nouvelle fonction.
+
+``` java
+public void hello() {
+    System.out.println("Hello World !");
+}
+
+hello();
+```
+Résultat dans la console:
+
+![Résultat de l'exécution](java_fonction_4.png)
+
+-> 
+
+
+
 
 
 
