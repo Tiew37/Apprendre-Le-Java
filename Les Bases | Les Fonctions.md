@@ -219,9 +219,11 @@ public boolean isAdult(int age) {
 -------------
 
 Prenons maintenant un dernier exemple qui ira encore plus loin.
+
 Exemple: Je veux créer une fonction qui me retourne l'onomatopé d'un bruit d'animal qu'on rentrera à l'appel de la fonction.
 
 Comment faire ?
+
 -> Utilisons **"String"** comme retournement de valeur car nous voulons une chaîne de caractère, j'écris donc ma fonction:
 
 ``` java
