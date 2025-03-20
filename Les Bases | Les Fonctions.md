@@ -75,7 +75,7 @@ System.out.println(addition());
 ```
 Résultat dans la console:
 
-![Résultat de l'exécution](java_fonction_1.png)
+![Résultat de l'exécution](images/java_fonction_1.png)
 
 Il m'affiche bien 10.
 
@@ -112,7 +112,7 @@ Je ne retourne plus "10" mais la valeur de "a + b", lors de notre appel de fonct
 
 Résultat dans la console:
 
-![Résultat de l'exécution](java_fonction_2.png)
+![Résultat de l'exécution](images/java_fonction_2.png)
 
 -> On peut voir que ça marche bien, il m'affiche bien le résultat **des deux paramètres que j'ai entré lors de l'appel de ma fonction**, prenons maintenant un autre exemple, cette fois avec **a = 1500 et b = 6**:
 
@@ -125,7 +125,7 @@ System.out.println(addition(1500, 6));
 ```
 Résultat dans la console:
 
-![Résultat de l'exécution](java_fonction_3.png)
+![Résultat de l'exécution](images/java_fonction_3.png)
 
 -> Voilà, le résultat de notre opération est bien 1500 + 6 = 1506.
 
@@ -141,7 +141,7 @@ hello();
 ```
 Résultat dans la console:
 
-![Résultat de l'exécution](java_fonction_4.png)
+![Résultat de l'exécution](images/java_fonction_4.png)
 
 -> Utilisez le **type de fonction "void"** si vous ne voulez pas **retourner de valeur**.
 
@@ -158,7 +158,7 @@ System.out.println(hello());
 ```
 Résultat dans la console:
 
-![Résultat de l'exécution](java_fonction_5.png)
+![Résultat de l'exécution](images/java_fonction_5.png)
 
 -> Je place ma fonction "hello()" dans un System.out.println() pour **l'afficher** car elle retourne **seulement une valeur** mais ne l'affiche pas d'elle même.
 Maintenant essayons d'aller un peu plus loin..
@@ -176,7 +176,7 @@ System.out.println(text("Hey salut man !"));
 ```
 Résultat dans la console:
 
-![Résultat de l'exécution](java_fonction_6.png)
+![Résultat de l'exécution](images/java_fonction_6.png)
 
 -------------
 
@@ -194,7 +194,7 @@ System.out.println(isAdult(18));
 ```
 Résultat dans la console:
 
-![Résultat de l'exécution](java_fonction_7.png)
+![Résultat de l'exécution](images/java_fonction_7.png)
 
 -> J'entre en paramètre de ma fonction booléenne une valeur entière qui **correspondrait à l'âge de la personne** (car un âge c'est rarement à virgule).
 -> Ensuite, je vérifie à l'aide d'une condition si **l'âge que j'ai rentré lors de l'appel de la fonction est supérieur OU égal à 18**, si oui, ma fonction sera vraie, sinon elle sera fausse.
@@ -245,7 +245,7 @@ System.out.println(animalSound("Vache"));
 ```
 Résultat dans la console:
 
-![Résultat de l'exécution](java_fonction_8.png)
+![Résultat de l'exécution](images/java_fonction_8.png)
 
 
 -------------
