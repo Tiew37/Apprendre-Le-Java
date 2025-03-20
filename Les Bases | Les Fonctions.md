@@ -82,7 +82,7 @@ Il m'affiche bien 10.
 -------------
 
 Il y a quelque chose d'important à savoir sur les fonctions. **Vous pouvez lui ajouter des paramètres !**
-Les paramètres d’une fonction en Java sont des **valeurs d’entrée** passées à la méthode pour qu’elle** puisse effectuer son traitement**. Ils permettent de rendre une méthode **plus flexible et réutilisable.**
+Les paramètres d’une fonction en Java sont des **valeurs d’entrée** passées à la méthode pour qu’elle **puisse effectuer son traitement**. Ils permettent de rendre une méthode **plus flexible et réutilisable.**
 
 Pour cela, revenons dans nos paranthèses de notre fonction et donnons lui un paramètre qu'on appellera "a" pour le premier élément à additionner et un autre "b" pour terminer l'addition, tout les deux de type "int".
 
