@@ -73,5 +73,46 @@ public int addition() {
 
 System.out.println(addition());
 ```
-![Résultat de l'exécution](images/09-01.png)
+Résultat dans la console:
+
+![Résultat de l'exécution](java_fonction_1.png)
+
+Il m'affiche bien 10.
+
+-------------
+
+Il y a quelque chose d'important à savoir sur les fonctions. Vous pouvez lui ajouter des paramètres ! 
+Les paramètres d’une fonction en Java sont des valeurs d’entrée passées à la méthode pour qu’elle puisse effectuer son traitement. Ils permettent de rendre une méthode plus flexible et réutilisable.
+
+Pour cela, revenons dans nos paranthèses de notre fonction et donnons lui un paramètre qu'on appellera "a" pour le premier élément à additionner et un autre "b" pour terminer l'addition, tout les deux de type "int".
+
+``` java
+public int addition(int a, int b) {
+    return 10;
+}
+
+System.out.println(addition(10, 5));
+```
+On commence d'abord par écrire le type de paramètre, puis son nom, et on peut en rajouter autant que nous voulons à condition qu'ils soient séparés par une virgule, comme ci-dessus.
+
+-> Bien-sûr, si vous ajoutez un paramètre à votre fonction, lors de l'appel de cette dernière vous devez aussi les renseigner, ici, il n'est pas nécéssaire de renseigner le type de valeur mais il faut les séparer par une virgule.
+
+Lors de l'affichage, cela nous affichera encore 10, car nous retournons toujours la valeur "10", nos paramètres ne servent donc à rien actuellement, réglons ça !
+
+-------------
+
+``` java
+public int addition(int a, int b) {
+    return a + b;
+}
+
+System.out.println(addition(10, 5));
+```
+Je ne retourne plus "10" mais la valeur de "a + b", lors de notre appel de fonction dans le System.out.println(), nos renseignons que a = 10 et b = 5, logiquement, il devrait m'afficher le résultat de 10 + 5:
+
+
+
+
+
+
 
