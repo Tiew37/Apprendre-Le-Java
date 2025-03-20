@@ -110,6 +110,24 @@ System.out.println(addition(10, 5));
 ```
 Je ne retourne plus "10" mais la valeur de "a + b", lors de notre appel de fonction dans le System.out.println(), nos renseignons que a = 10 et b = 5, logiquement, il devrait m'afficher le résultat de 10 + 5:
 
+Résultat dans la console:
+
+![Résultat de l'exécution](java_fonction_2.png)
+
+-> On peut voir que ça marche bien, il m'affiche bien le résultat des deux paramètres que j'ai entré lors de l'appel de ma fonction, prenons maintenant un autre exemple avec cette fois a = 1500 et b = 6:
+
+``` java
+public int addition(int a, int b) {
+    return a + b;
+}
+
+System.out.println(addition(1500, 6));
+```
+Résultat dans la console:
+
+![Résultat de l'exécution](java_fonction_3.png)
+
+-> Voilà, le résultat de notre opération est bien 1500 + 6 = 1506.
 
 
 
