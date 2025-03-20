@@ -143,8 +143,114 @@ Résultat dans la console:
 
 ![Résultat de l'exécution](java_fonction_4.png)
 
--> 
+-> Utilisez le type de fonction "void" si vous ne voulez pas retourner de valeur.
 
+-------------
+
+Essayons maintenant de faire la même chose mais cette fois en retournant une valeur "String" soit une chaîne de caractère. Pour cela, nous n'utiliseront pas "int" ni "void" comme type de fonction mais bien "String":
+
+``` java
+public String hello() {
+    return "Hello :)";
+}
+
+System.out.println(hello());
+```
+Résultat dans la console:
+
+![Résultat de l'exécution](java_fonction_5.png)
+
+-> Je place ma fonction "hello()" dans un System.out.println() pour l'afficher car elle retourne seulement une valeur mais ne l'affiche pas d'elle même.
+Maintenant essayons d'aller un peu plus loin..
+
+-------------
+
+Codons une fonction qui affiche la chaîne de caractère entrée en paramètre lors de son appel, je renseigne donc "String text" dans les paranthèses de ma fonction pour indiquer que pour appeller cette fonction, il faudra y renseigner une chaîne de caractère, qui sera ensuite affichée:
+
+``` java
+public String text(String text) {
+    return text;
+}
+
+System.out.println(text("Hey salut man !"));
+```
+Résultat dans la console:
+
+![Résultat de l'exécution](java_fonction_6.png)
+
+-------------
+
+Nous pouvons également faire des fonctions retournant des valeures booléennes.
+Exemple: Je veux créer une fonction qui me retourne "Vrai" si je suis majeur, si je ne le suis pas, elle me retourne "Faux".
+
+``` java
+public boolean isAdult(int age) {
+    if (age >= 18) {
+        return true;
+    } else return false; 
+}
+
+System.out.println(isAdult(18));
+```
+Résultat dans la console:
+
+![Résultat de l'exécution](java_fonction_7.png)
+
+-> J'entre en paramètre de ma fonction booléenne une valeur entière qui correspondrait à l'âge de la personne (car un âge c'est rarement à virgule).
+-> Ensuite, je vérifie à l'aide d'une condition si l'âge que j'ai rentré lors de l'appel de la fonction est supérieur OU égal à 18, si oui, ma fonction sera vraie, sinon elle sera fausse.
+
+Il est possible d'optimiser nos conditions, même dans des fonctions pour rendre notre code plus lisible, notre fonction ci-dessus est exactement la même que les trois du dessous:
+
+``` java
+public boolean isAdult(int age) {
+    if (age >= 18) return true;        // Il n'est pas nécéssaire de garder les accolades dans des conditions lorsque l'instruction qui vient est solitaire.
+    else return false; 
+}
+
+public boolean isAdult(int age) {
+    return age >= 18 ? true : false;        // Il n'est pas nécéssaire de faire de condition sous forme de "if" "else", ici, vous retourner "true" si la valeur d'âge est supérieure ou égale à 18 sinon "false".
+}
+
+public boolean isAdult(int age) {
+    return age >= 18;        // Il n'est pas nécéssaire de faire de condition, une fonction booléenne n'a que deux valeurs: vrai ou faux. Ici on retourne la VALEUR de "age >= 18", si elle est vraie alors notre fonction                                // le sera tout autant, sinon notre fonction sera fausse.
+}
+```
+
+-------------
+
+Prenons maintenant un dernier exemple qui ira encore plus loin.
+Exemple: Je veux créer une fonction qui me retourne l'onomatopé d'un bruit d'animal qu'on rentrera à l'appel de la fonction.
+
+Comment faire ?
+-> Utilisons "String" comme retournement de valeur car nous voulons une chaîne de caractère, j'écris donc ma fonction:
+
+``` java
+public String animalSound(String animal) {        // Il faudra rentré en chaîne de caractère le nom d'un animal.
+    String sound = "";                            // Je crée une variable de type "String" qui ne contient rien encore.
+
+    switch (animal) {                             // Je crée un switch pour assigner la variable "sound" à quelque chose en fonction de ce que renseigne l'utilisateur à l'appel de la fonction.
+        case "Chien" -> sound = "Ouaf Ouaf";
+        case "Chat" -> sound = "Miaou";
+        case "Lion" -> sound = "Rwaaaaa";         // Je regarde si le paramètre de la fonction est un "Lion", si c'est le cas j'assigne à "sound" son cri donc "Griii".
+        case "Tigre" -> sound = "Griii";
+        case "Vache" -> sound = "Meuuuh";
+    }
+
+    return sound;                                 // Je retourne la variable "sound" qui aura donc une valeur en fonction de ce que rentre l'utilisateur comme valeur à l'appel.
+}
+
+System.out.println(animalSound("Chien"));         // J'affiche le résultat de la fonction car elle n'affiche rien d'elle même mais donne juste une valeur.
+System.out.println(animalSound("Lion"));
+System.out.println(animalSound("Vache"));
+```
+Résultat dans la console:
+
+![Résultat de l'exécution](java_fonction_8.png)
+
+
+-------------
+
+Voilà, vous avez appris à créer une fonction qu'elle soit simple ou complexe, entraînez-vous jusqu'à ce que vous maîtrisiez ces dernière pour faire des fonctions encore plus fascinantes les unes que les autres !
 
 
 
