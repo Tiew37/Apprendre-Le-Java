@@ -15,7 +15,7 @@ _Plus simplement, un tableau sert principalement à stocker **un seul type d'él
 **Comment on écrit des tableaux alors ? 🤔**
 -------------
 
--> Commencez par renseigner le type de votre tableau, si vous voulez stocker uniquement des valeurs de type "int", "String", "float" ou autre. Pour notre exemple j'écris "int" pour ne renseigner **que des nombres entiers** dans mon tableau.
+-> Commencez par renseigner **le type de votre tableau**, pour déterminer si vous voulez stocker **uniquement** des valeurs de type **"int", "String", "float"** ou autre. Pour notre exemple j'écris **"int"** pour ne renseigner **que des nombres entiers** dans mon tableau.
 
 ``` java
 int
@@ -23,7 +23,7 @@ int
 
 -------------
 
--> Ensuite, écrivez "[]" devant votre valeur pour préciser que vous voulez écrire un tableau, c'est ce préfixe qui permet au tableau de se créer.
+-> Ensuite, écrivez deux crochets **"[]"** devant votre valeur pour préciser que vous voulez **écrire un tableau**, **c'est ce préfixe qui permet au tableau de se créer.**
 
 ``` java
 int[]
@@ -31,7 +31,7 @@ int[]
 
 -------------
 
--> Écrivez maintenant le nom de votre tableau, tout comme une variable le nom doit être correcte.
+-> Écrivez maintenant **le nom de votre tableau**, tout comme une variable le nom doit être **correcte.**
 
 ``` java
 int[] tableau
@@ -40,7 +40,7 @@ int[] tableau
 
 -------------
 
--> Assignez ensuite votre tableau à des valeurs en écrivant un "=" après le nom de votre tableau, puis des accolades ouvrantes "{" et fermantes "}" pour ouvrir et fermer votre tableau:
+-> Assignez ensuite votre tableau à des valeurs en écrivant un **"="** après le nom de votre tableau, puis **des accolades ouvrantes "{" et fermantes "}"** pour ouvrir et fermer votre tableau:
 
 ``` java
 int[] tableau = {}
@@ -48,7 +48,9 @@ int[] tableau = {}
 
 -------------
 
--> Pour finir, renseignez vos valeurs dans les accolades que vous venez de créer, vous pouvez mettre autant de valeur que vous souhaitez à condition que chaque valeur soit séparé par une virgule "," et que chaque valeur doit correspondre au type de votre tableau. Vous ne pouvez par exemple pas mettre "12.56" dans votre tableau de type "int".
+-> Pour finir, renseignez vos valeurs **dans les accolades** que vous venez de créer, vous pouvez mettre **autant de valeur que vous souhaitez** à condition que chaque valeur soit **séparé par une virgule ","** et que chaque valeur doit **correspondre au type de votre tableau. **
+
+Vous ne pouvez par exemple pas mettre **"12.56"** dans votre tableau de type **"int".**
 
 ``` java
 int[] tableau = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
