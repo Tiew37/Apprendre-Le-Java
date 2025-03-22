@@ -12,3 +12,12 @@ _Plus simplement, un tableau sert principalement à stocker **un seul type d'él
 
 -------------
 
+**Comment on écrit des tableaux alors ? 🤔**
+-------------
+
+-> Commencez par renseigner le type de votre tableau, si vous voulez stocker uniquement des valeurs de type "int", "String", "float" ou autre. Pour notre exemple j'écris "int" pour ne renseigner **que des nombres entiers** dans mon tableau.
+
+```java
+int
+
+```
