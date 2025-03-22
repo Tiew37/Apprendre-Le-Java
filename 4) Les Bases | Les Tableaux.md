@@ -58,3 +58,24 @@ int[] tableau = {10, 15, 8, 19};
 
 N'oubliez pas le point-virgule ";".
 
+-------------
+
+° Il est possible d'afficher le contenu total de votre tableau dans la console, non pas avec cette ligne de code:
+
+``` java
+System.out.println(tableau);
+```
+
+-> Mais plutôt avec cette ligne de code:
+
+``` java
+System.out.println(Arrays.toString(tableau));
+
+```
+
+Résultat dans la console:
+
+![Résultat de l'exécution](images/java_tableaux_1.png)
+
+Il m'affiche bien 10, 15, 8 et 19 le tout entre crochet, ce qui signifie bien que c'est un tableau.
+
