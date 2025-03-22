@@ -272,3 +272,20 @@ Résultat dans la console:
 
 ![Résultat de l'exécution](images/java_tableaux_8.png)
 
+-------------
+
+° Ou alors un tableau représentant les âges de différentes personnes.
+
+```java
+byte[] ages = {10, 19, 40};    // Création d'un tableau "ages" de type "bytes" contenant donc que des petites valeurs (Rappel: de -128 à 128).
+
+System.out.println("La personne 1 a " + ages[0] + " ans");    // J'affiche l'âge de la personne 1.
+System.out.println("La personne 2 a " + ages[1] + " ans");    // J'affiche l'âge de la personne 2.
+System.out.println("La personne 3 a " + ages[2] + " ans");    // J'affiche l'âge de la personne 3.
+```
+
+Résultat dans la console:
+
+![Résultat de l'exécution](images/java_tableaux_9.png)
+
+
