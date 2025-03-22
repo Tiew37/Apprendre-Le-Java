@@ -142,3 +142,19 @@ Résultat dans la console:
 
 -> Il m'affiche bien **25** car **25** est **la somme des deux premiers éléments de mon tableau**, soit **10 + 15**.
 
+-------------
+
+🔴 **Attention ! Il n'est pas possible de récupérer une donnée un index qui n'existe pas.**
+
+Reprenons notre tableau, nous ne pouvons pas récupérer la valeur de l'index 4 car elle correspondrait à la 5ème valeur, qui ici, n'existe pas.
+
+``` java
+// Index        [0] [1] [2] [3] [4]
+int[] tableau = {10, 15, 8, 19};
+
+System.out.println(tableau[4]);
+```
+
+Résultat dans la console:
+
+![Résultat de l'exécution](images/java_tableaux_4.png)
