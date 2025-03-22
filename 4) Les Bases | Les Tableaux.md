@@ -105,8 +105,11 @@ int[] tableau = {10, 15, 8, 19};
 ```
 -------------
 
--> Si nous voulons afficher le premier élément de notre tableau, nous voulons afficher l'index 0 de notre tableau, si nous voulons afficher le deuxième élément de notre tableau, nous voulons afficher l'index 1.
-Exemple:
+-> Si nous voulons afficher **le premier élément** de notre tableau, nous voulons afficher **l'index 0** de notre tableau. 
+
+-> Si nous voulons afficher **le deuxième élément** de notre tableau, nous voulons afficher **l'index 1** de notre tableau.
+
+_Exemple:_
 
 ``` java
 int[] tableau = {10, 15, 8, 19};
@@ -114,10 +117,22 @@ int[] tableau = {10, 15, 8, 19};
 System.out.println(tableau[0]);
 ```
 
--> J'ouvre les crochets après avoir écrit le nom de mon tableau et je renseigne l'index, cela m'affichera donc dans la console l'index 0 de mon tableau de nom "tableau", donc son premier élément.
+-> **J'ouvre les crochets** après avoir écrit le **nom de mon tableau** et je renseigne **l'index**, cela m'affichera donc dans la console **l'index 0** de mon tableau de **nom "tableau"**, donc son **premier élément**.
 
 Résultat dans la console:
 
 ![Résultat de l'exécution](images/java_tableaux_2.png)
 
+-> Il m'affiche bien **10** car **l'index 0** de mon tableau est bien **10**.
+
+-------------
+
+° Essayons maintenant d'afficher **la somme** des **deux premiers éléments de notre tableau**, il nous faudra donc **faire la somme** de **l'index 0 et l'index 1**, voilà comment nous pourrions l'écrire:
+
+
+``` java
+int[] tableau = {10, 15, 8, 19};
+
+System.out.println(tableau[0] + tableau[1]);
+```
 
