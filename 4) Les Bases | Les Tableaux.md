@@ -52,7 +52,8 @@ int[] tableau = {}
 
 Vous ne pouvez par exemple pas mettre **"12.56"** dans votre tableau de type **"int".**
 
-``` java         0  1  2  3
+``` java
+                 0   1   2  3
 int[] tableau = {10, 15, 8, 19};
 ```
 
