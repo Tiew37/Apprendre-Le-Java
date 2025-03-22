@@ -211,7 +211,7 @@ Résultat dans la console:
 ![Résultat de l'exécution](images/java_tableaux_6.png)
 
 
-Voilà ce qui existe comme principales fonctions concernant les tableaux.
+Voilà ce qui existe comme **principales fonctions** concernant les tableaux.
 
 -------
 
