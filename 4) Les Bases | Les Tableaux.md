@@ -288,4 +288,10 @@ Résultat dans la console:
 
 ![Résultat de l'exécution](images/java_tableaux_9.png)
 
+-------------
+
+Voilà, vous avez appris à créer un **tableau** qu'il soit simple ou complexe, entraînez-vous jusqu'à ce que vous maîtrisiez ces derniers pour faire des tableaux encore plus fascinants les uns que les autres !
+
+
+
 
