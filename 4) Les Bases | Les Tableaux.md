@@ -83,7 +83,7 @@ Résultat dans la console:
 **Comment j'exploite les données/valeurs de mon tableau ? 🤔**
 -------------
 
-° Tout comme dans la plupart des langages de programmation, en Java, il est possible d'utiliser les données renseignés dans notre tableau. Pour cela, il est important de comprendre comment sont rangés les éléments dans ce dernier.
+° Tout comme dans la plupart des langages de programmation, en Java, il est possible **d'utiliser les données** renseignés dans notre tableau. Pour cela, il est important de comprendre comment sont **rangés les éléments dans ce dernier.**
 
 -> Pour notre exemple, reprenons notre tableau d'avant:
 
@@ -91,18 +91,33 @@ Résultat dans la console:
 int[] tableau = {10, 15, 8, 19};
 ```
 
-° Les éléments dans notre tableau sont rangés à une place bien précise dans notre tableau aussi appelé "index". 
+° Les éléments dans notre tableau sont rangés à une **place bien précise** dans notre tableau aussi appelé **"index".**
 
 🔴 **Le premier élément du tableau sera toujours d'index 0, le deuxième d'index 1, le troisième d'index 2, etc..**
 
-L'index des élements dépend de là où ils sont placés dans notre tableau. Prenons notre valeur "19", il est bien à la 4ème place dans notre tableau, pourtant son index sera de 3, car l'index commence à partir de 0.
+L'index des élements **dépend de là où ils sont placés dans notre tableau**. Prenons notre valeur **"19"**, il est bien à la **4ème place** dans notre tableau, pourtant son index sera de **3**, car l'index commence à **partir de 0**.
 
-Voici comment marche les index:
+_Voici comment marche les index:_
 
 ``` java
 // Index        [0] [1] [2] [3]
 int[] tableau = {10, 15, 8, 19};
 ```
 -------------
+
+-> Si nous voulons afficher le premier élément de notre tableau, nous voulons afficher l'index 0 de notre tableau, si nous voulons afficher le deuxième élément de notre tableau, nous voulons afficher l'index 1.
+Exemple:
+
+``` java
+int[] tableau = {10, 15, 8, 19};
+
+System.out.println(tableau[0]);
+```
+
+-> J'ouvre les crochets après avoir écrit le nom de mon tableau et je renseigne l'index, cela m'affichera donc dans la console l'index 0 de mon tableau de nom "tableau", donc son premier élément.
+
+Résultat dans la console:
+
+![Résultat de l'exécution](images/java_tableaux_2.png)
 
 
