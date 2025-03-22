@@ -263,7 +263,7 @@ Résultat dans la console:
 ``` java
 float[] notes = {17, 5, 10, 8.5f, 7.5f, 18.5f, 14.25f};    // Je crée un tableau de type float (Rappel: Quand on entre une valeur float on met un "f" à la fin de cette dernière).
 
-float moyenne = (notes[0] + notes[1] + notes[2] + notes[3] + notes[4] + notes[5] + notes[6]) / notes.length;  // Je crée une variable "moyenn" qui va additionner toute les valeurs du tableau et va les diviser par le                                                                                                                    // nombre d'élément pour calculer une moyenne.
+float moyenne = (notes[0] + notes[1] + notes[2] + notes[3] + notes[4] + notes[5] + notes[6]) / notes.length;  // Je crée une variable "moyenne" qui va additionner toute les valeurs du tableau et va les diviser par le nombre d'élément pour calculer une moyenne.
 
 System.out.println(moyenne);    // J'affiche ma moyenne.
 ```
