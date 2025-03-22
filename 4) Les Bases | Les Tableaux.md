@@ -144,7 +144,7 @@ Résultat dans la console:
 
 -------------
 
-🔴 **Attention ! Il n'est pas possible de récupérer une donnée un index qui n'existe pas.**
+🔴 **Attention ! Il n'est pas possible de récupérer une donnée d'un index qui n'existe pas.**
 
 Reprenons notre tableau, nous ne pouvons pas récupérer la valeur de **l'index 4** car elle correspondrait à la **5ème valeur**, qui ici, **n'existe pas**.
 
@@ -162,3 +162,16 @@ Résultat dans la console:
 -> On obtient bien une erreur disant que **l'index 4** est **hors du tableau**, ce qui signifie que ce dernier est **inexistant**.
 
 -------------
+
+° Vous faire **ce que vous voulez** avec les données de votre tableau, voici un exemple de code qui **les compare entre eux**, reprenant notre tableau d'origine:
+
+``` java
+int[] tableau = {10, 15, 8, 19};
+
+if (tableau[1] == tableau[2]) System.out.println("Les éléments 2 et 3 de notre tableau sont égaux !");    // Je vérifie avec une condition sur l'index 1 et 2 du tableau ont une valeur identique (je compare donc 15 et 8).
+else System.out.println("Les éléments 2 et 3 de notre tableau ne sont pas égaux !");
+```
+
+-------------
+
+
