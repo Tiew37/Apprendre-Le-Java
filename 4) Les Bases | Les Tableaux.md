@@ -172,6 +172,47 @@ if (tableau[1] == tableau[2]) System.out.println("Les éléments 2 et 3 de notre
 else System.out.println("Les éléments 2 et 3 de notre tableau ne sont pas égaux !");
 ```
 
+
+**Existe-t-il des fonctions concernant les tableaux ? 🤔**
 -------------
+
+-> Oui, il en existe **quelques unes**, ayant chacune une **propriété unique**, les voici:
+
+.length: retourne le nombre d'éléments dans le tableau.
+-------
+
+``` java
+int[] tableau = {10, 15, 8, 19};
+
+System.out.println(tableau.length);
+```
+
+Résultat dans la console:
+
+![Résultat de l'exécution](images/java_tableaux_5.png)
+
+
+.split(): divise des éléments et en fait un tableau.
+-------
+
+° La fonction **.split()** prend en paramètre une **chaîne de caractère** servant de **séparateur** qui s'applique à une **variable classique**. Elle **découpera les éléments** et les **séparera** grâce à ce que vous entrerez **en paramètre** et vous **créera un tableau avec les données obtenues.**
+
+Exemple:
+
+``` java
+String noms = "Jean,Michel,Théo,Paul,Fabien";    // Je crée une variable et non un tableau ayant une seule chaîne de caractère, contenant une liste de prénom séparés par une virgule.
+String[] tableau2 = noms.split(",");    // Je crée un tableau de type "String" qui prend la valeur de la variable "noms" (notre liste de prénom) et qui va séparer les éléments à partir de la virgule, comme j'entre une                                            // virgule en entrée.
+
+System.out.println(Arrays.toString(tableau2));
+```
+
+Résultat dans la console:
+
+![Résultat de l'exécution](images/java_tableaux_6.png)
+
+
+Voilà ce qui existe comme principales fonctions concernant les tableaux.
+
+-------
 
 
