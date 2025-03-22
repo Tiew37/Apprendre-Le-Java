@@ -83,5 +83,26 @@ Résultat dans la console:
 **Comment j'exploite les données/valeurs de mon tableau ? 🤔**
 -------------
 
+° Tout comme dans la plupart des langages de programmation, en Java, il est possible d'utiliser les données renseignés dans notre tableau. Pour cela, il est important de comprendre comment sont rangés les éléments dans ce dernier.
+
+-> Pour notre exemple, reprenons notre tableau d'avant:
+
+``` java
+int[] tableau = {10, 15, 8, 19};
+```
+
+° Les éléments dans notre tableau sont rangés à une place bien précise dans notre tableau aussi appelé "index". 
+
+🔴 **Le premier élément du tableau sera toujours d'index 0, le deuxième d'index 1, le troisième d'index 2, etc..**
+
+L'index des élements dépend de là où ils sont placés dans notre tableau. Prenons notre valeur "19", il est bien à la 4ème place dans notre tableau, pourtant son index sera de 3, car l'index commence à partir de 0.
+
+Voici comment marche les index:
+
+``` java
+// Index        [0] [1] [2] [3]
+int[] tableau = {10, 15, 8, 19};
+```
+-------------
 
 
