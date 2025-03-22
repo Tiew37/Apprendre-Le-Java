@@ -146,7 +146,7 @@ Résultat dans la console:
 
 🔴 **Attention ! Il n'est pas possible de récupérer une donnée un index qui n'existe pas.**
 
-Reprenons notre tableau, nous ne pouvons pas récupérer la valeur de l'index 4 car elle correspondrait à la 5ème valeur, qui ici, n'existe pas.
+Reprenons notre tableau, nous ne pouvons pas récupérer la valeur de **l'index 4** car elle correspondrait à la **5ème valeur**, qui ici, **n'existe pas**.
 
 ``` java
 // Index        [0] [1] [2] [3] [4]
@@ -158,3 +158,7 @@ System.out.println(tableau[4]);
 Résultat dans la console:
 
 ![Résultat de l'exécution](images/java_tableaux_4.png)
+
+-> On obtient bien une erreur disant que **l'index 4** est **hors du tableau**, ce qui signifie que ce dernier est **inexistant**.
+
+-------------
