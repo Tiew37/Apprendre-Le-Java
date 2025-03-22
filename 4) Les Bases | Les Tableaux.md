@@ -91,7 +91,7 @@ Résultat dans la console:
 int[] tableau = {10, 15, 8, 19};
 ```
 
-° Les éléments dans notre tableau sont rangés à une **place bien précise** dans notre tableau aussi appelé **"index".**
+Les éléments dans notre tableau sont rangés à une **place bien précise** dans notre tableau aussi appelé **"index".**
 
 🔴 **Le premier élément du tableau sera toujours d'index 0, le deuxième d'index 1, le troisième d'index 2, etc..**
 
