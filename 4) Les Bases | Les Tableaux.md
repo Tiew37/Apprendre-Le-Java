@@ -211,8 +211,64 @@ Résultat dans la console:
 ![Résultat de l'exécution](images/java_tableaux_6.png)
 
 
-Voilà ce qui existe comme **principales fonctions** concernant les tableaux.
+-> Voilà ce qui existe comme **principales fonctions** concernant les tableaux.
 
--------
 
+**On peut insérer des tableaux dans des tableaux ? 🤔**
+-------------
+
+-> Oui, il est possible d'intégrer des tableaux dans des tableaux, pour cela, lors de la déclaration de votre tableau principal (qui va accueillir les autres), vous devez non pas mettre un seul crochet "[]" mais 2 "[][]".
+Exemple:
+
+
+``` java
+String[][] tableau = {    // Je crée un tableau qui peut en accueillir d'autre (avec le double crochet).
+    {
+      "Joseph",
+      "James",            // Premier tableau donc première valeur. Index 0 du tableau principal.
+      "Marie",      
+    },
+
+    {
+      "Marion",
+      "Olivier",          // Deuxième tableau donc deuxième valeur. Index 1 du tableau principal.
+      "Antoine",
+    },
+
+    {
+      "Sophie",
+      "Sandrine",         // Troisième tableau donc deuxième valeur. Index 2 du tableau principal.
+      "Max",
+    }
+};
+
+System.out.println(tableau[0][1]);    // J'affiche le premier tableau (index 0) et l'index 1 de ce tableau, soit son 2ème élément (index 1).
+System.out.println(tableau[2][1]);    // J'affiche le troisième tableau (index 2) et l'index 1 de ce tableau, soit son 2ème élément (index 1).
+System.out.println(tableau[1][2]);    // J'affiche le deuxième tableau (index 1) et l'index 2 de ce tableau, soit son 3ème élément (index 2).
+
+System.out.println(Arrays.toString(tableau[0]));    // J'affiche la totalité des valeurs de l'index 0, donc j'affiche le premier tableau. 
+```
+
+
+Résultat dans la console:
+
+![Résultat de l'exécution](images/java_tableaux_7.png)
+
+
+-------------
+
+° Les tableaux ne se limite pas qu'à **des entiers** ou des **chaînes de caractères**, vous pouvez aller **beaucoup plus loins** que ça, par exemple:
+
+
+``` java
+float[] notes = {17, 5, 10, 8.5f, 7.5f, 18.5f, 14.25f};    // Je crée un tableau de type float (Rappel: Quand on entre une valeur float on met un "f" à la fin de cette dernière).
+
+float moyenne = (notes[0] + notes[1] + notes[2] + notes[3] + notes[4] + notes[5] + notes[6]) / notes.length;  // Je crée une variable "moyenn" qui va additionner toute les valeurs du tableau et va les diviser par le                                                                                                                    // nombre d'élément pour calculer une moyenne.
+
+System.out.println(moyenne);    // J'affiche ma moyenne.
+```
+
+Résultat dans la console:
+
+![Résultat de l'exécution](images/java_tableaux_8.png)
 
