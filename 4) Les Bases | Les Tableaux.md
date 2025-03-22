@@ -136,3 +136,9 @@ int[] tableau = {10, 15, 8, 19};
 System.out.println(tableau[0] + tableau[1]);
 ```
 
+Résultat dans la console:
+
+![Résultat de l'exécution](images/java_tableaux_3.png)
+
+-> Il m'affiche bien **25** car **25** est **la somme des deux premiers éléments de mon tableau**, soit **10 + 15**.
+
