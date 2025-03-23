@@ -253,9 +253,11 @@ Résultat dans la console:
 
 -------------
 
+Pour plus d'informations, visionnez cette vidéo: [Lien de la Vidéo](https://www.youtube.com/watch?v=rJx9Q-aYuAA).
+
+
+
 Voilà, vous avez appris à créer une **fonction** qu'elle soit simple ou complexe, entraînez-vous jusqu'à ce que vous maîtrisiez ces dernières pour faire des fonctions encore plus fascinantes les unes que les autres !
-
-
 
 
 
