@@ -87,4 +87,4 @@ Même principe que "Float", "Double" permet de stocker des **nombres à virgules
 
 -------------
 
-
+-> Quizz pour s'exercer: [QUIZZ SUR LES VARIABLES](https://www.quiz-maker.com/QPREVIEW)
