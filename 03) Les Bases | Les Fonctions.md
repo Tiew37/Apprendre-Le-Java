@@ -1,6 +1,6 @@
 **Les Fonctions en Java**
 =============
-_Difficultée: 4 / 10 🟡_
+_Difficultée: 5 / 10 🟡_
 
 -------------
 
