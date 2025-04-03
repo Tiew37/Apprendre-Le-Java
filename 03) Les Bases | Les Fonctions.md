@@ -260,6 +260,7 @@ Pour plus d'informations, visionnez cette vidéo:  [APPRENDRE LE JAVA #6 - LES F
 Voilà, vous avez appris à créer une **fonction** qu'elle soit simple ou complexe, entraînez-vous jusqu'à ce que vous maîtrisiez ces dernières pour faire des fonctions encore plus fascinantes les unes que les autres !
 
 
+-> Quizz pour s'exercer: [QUIZZ SUR LES VARIABLES](https://qruiz.net/Q/?u7w9WN)
 
 
 
