@@ -1,5 +1,8 @@
 **Les Tableaux en Java**
 =============
+_Difficultée: 3 / 10 🟢_
+
+-------------
 
 _Dans ce chapitre, nous allons découvrir **qu'est-ce qu'un tableau** en Java, **comment les écrire** et **comment bien s'en servir**._
 
