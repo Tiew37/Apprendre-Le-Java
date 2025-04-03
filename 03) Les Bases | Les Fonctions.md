@@ -2,6 +2,8 @@
 =============
 _Difficultée: 5 / 10 🟠_
 
+-------------
+
 _Dans ce chapitre, nous allons découvrir **qu'est-ce qu'une fonction** en Java, **comment les écrire** et **comment bien s'en servir**._
 
 **C'est Quoi une Fonction ? 🤔**
