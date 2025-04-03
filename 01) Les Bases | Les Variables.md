@@ -1,5 +1,8 @@
 **Les Variables en Java**
 =============
+_Difficultée: 1 / 10 🔵_
+
+-------------
 
 _Dans ce chapitre, nous allons découvrir **qu'est-ce qu'une variable** en Java, **comment les écrire** et **comment bien s'en servir**._
 
