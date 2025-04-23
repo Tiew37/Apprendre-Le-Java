@@ -299,6 +299,8 @@ Pour plus d'informations, visionnez cette vidéo:  [APPRENDRE LE JAVA #4 - LES T
 
 Voilà, vous avez appris à créer un **tableau** qu'il soit simple ou complexe, entraînez-vous jusqu'à ce que vous maîtrisiez ces derniers pour faire des tableaux encore plus fascinants les uns que les autres !
 
+-> Quizz pour s'exercer: [QUIZZ SUR LES TABLEAUX](https://qruiz.net/Q/?qQry5a)
+
 
 
 
