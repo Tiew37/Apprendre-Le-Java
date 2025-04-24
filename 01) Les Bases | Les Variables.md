@@ -90,4 +90,33 @@ Même principe que "Float", "Double" permet de stocker des **nombres à virgules
 
 -------------
 
+**Comment on écrit une variable alors ? 🤔**
+-------------
+
+-> Avant de coder notre variable, il faut réfléchir à quel type d'information cette dernière contiendra parmis les types ci-dessus. Pour notre exemple, nous voulons stocker l'âge d'une personne.
+
+° Je commence donc par écrire le type de ma variable, comme je veux stocker un âge, "byte" devrait suffir car ce type de variable ne peut pas stocker une valeur supérieure à 127.
+
+``` java
+byte
+```
+
+° Ensuite, j'écris le nom de ma variable. Ce nom ne peut pas contenir d'espace ni de tiret du 6.
+
+``` java
+byte age
+```
+
+° Nous avons presque fini, après avoir écrit le nom, j'écris l'assignation de ma variable, quelle valeur je vais lui renseigner.
+
+``` java
+byte age = 18
+```
+
+° Et je termine par mon point-virgule à la fin de ma déclaration de ma variable.
+
+``` java
+byte age = 18;
+```
+
 -> Quizz pour s'exercer: [QUIZZ SUR LES VARIABLES](https://qruiz.net/Q/?cJNuBS)
